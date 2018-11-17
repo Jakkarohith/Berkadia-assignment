@@ -1,0 +1,9 @@
+A source code must be converted into a machine code by either compiler or an interpreter 
+A compiler is a program which converts the source code into machine code at once. 
+In case of compiler a source code after compilation generates  the executable file which could be shared to any number of users
+This executable file is only understood by the computer could directly produce the result.Using complied language source code is private 
+and the excetubale file is ready to run.
+Whereas when it comes to interpreter the programmer writes the source code and the copy of the source code is sent to the users who has 
+their own interpreter to convert the code into machine code.In interpreter, source code is public and the user who wants the output should 
+have his own have interpreter,it is often slower because it must be interpretered everytime one required output and source code is public.
+When it comes to advantages of interpreter it is cross platform as code is executed at the user side with his own interpreter.

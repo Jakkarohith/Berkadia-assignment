@@ -1,0 +1,35 @@
+2)What are the different http response codes?
+The response code is also known as status code.
+The Status-Code element in a server response,is a 3-digit integer where the first digit of the Status-Code defines the class of response 
+and the last two digits do not have any categorization role.
+This are of five types
+
+1.1xx: Informational
+It means the request has been received and the process is continuing.
+For example:
+100: Continue	Only a part of the request has been received by the server, but as long as it has not been rejected, the client should continue with the request.
+101: Switching Protocols	The server switches protocol.
+
+2.2xx: Success
+It means the action was successfully received, understood, and accepted.
+For example:
+200 OK	The request is OK.
+201 Created	The request is complete, and a new resource is created .
+
+3.3xx: Redirection
+It means further action must be taken in order to complete the request.
+For example:
+300 Multiple Choices	A link list. The user can select a link and go to that location. Maximum five addresses  .
+301 Moved Permanently	The requested page has moved to a new url .
+
+4.4xx: Client Error
+It means the request contains incorrect syntax or cannot be fulfilled.
+For example:
+400 Bad Request	The server did not understand the request.
+401 Unauthorized	The requested page needs a username and a password.
+
+5.5xx: Server Error
+It means the server failed to fulfill an apparently valid request.
+For example:
+500 Internal Server Error	The request was not completed. The server met an unexpected condition.
+501 Not Implemented	The request was not completed. The server did not support the functionality required.

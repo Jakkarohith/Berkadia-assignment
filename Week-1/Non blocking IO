@@ -1,0 +1,8 @@
+Non blocking IO:
+
+	Non blocking IO means any process which is requesting IO operations should not be blocked unless the required IO resources are busy.
+	IO operations are performed independent of the other system operations.
+	IO operations mainly consists of fetech operations,reading a file,accessing a memory location etc,.
+	CPU operations are based on the processors present in the system.
+
+Nodejs supports Non blocking IO.

@@ -1,0 +1,15 @@
+Multiprocessing:
+
+Multi Processing is executing two or more processes (typically CPU operations) simultaneously in a system.
+MultiProcessing system must have multiple processors.
+A single core processor can't execute multiple process at the same time as their is only one cpu.
+A dual core processor can execute two processes similarly a quad core processor can execute 4 processes at a time.
+A quad core processor can be 4 times faster than single core and 2 times faster than a dual core processor.
+
+
+Multi Threading:
+
+Multithreading is an execution model that allows a single process to have multiple code segments that run 
+concurrently within the "context" of that process.
+In single cpu system, multiple threads can share a singe cpu.
+In multiprocessing system, multiple threads can run in parallel.

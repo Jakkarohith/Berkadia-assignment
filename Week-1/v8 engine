@@ -1,0 +1,10 @@
+v8 engine :
+The V8 Engine is built by Google is an open source and written in C++. This engine is used inside Google Chrome. 
+V8 is also used for the Node.js runtime.
+V8 was first designed to increase the performance of JavaScript execution inside web browsers.To obtain speed, V8 translates
+JavaScript code into more efficient machine code instead of using an interpreter. It compiles JavaScript code into machine code
+at execution by implementing a JIT (Just-In-Time) compiler.The main difference here is that V8 doesn’t produce bytecode or any 
+intermediate code.
+The engine uses two compilers:
+Full-codegen : A simple and very fast compiler that produced simple and relatively slow machine code.
+Crankshaft : A more complex (Just-In-Time)optimizing compiler that produced highly-optimized code.     

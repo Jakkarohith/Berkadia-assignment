@@ -1,0 +1,16 @@
+Idempotency :
+Idempotency is a property where even if the same methods were called to the server, that dosen't effect the resources at the server.
+Methods showing the Idempotency property are called Idempotent Methods.
+
+Idempotent methods:
+An idempotent HTTP method is a HTTP method that can be called many times without different outcomes. 
+It would not matter if the method is called only once, or ten times over. The result should be the same.
+1.GET:
+The GET method is idempotent, as multiple calls to the GET resource will always return the same response.
+2.POST:
+The PUT method is idempotent, as calling the PUT method multiple times will update the same resource and not change the outcome.
+3.POST:
+The POST is not idempotent, and calling the POST method multiple times can have different results and will result in creating new resources.
+4.DELETE:
+The DELETE is idempotent because once the resource is deleted, it is gone and calling the method multiple times will not change the outcome.
+

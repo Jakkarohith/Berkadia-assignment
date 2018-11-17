@@ -1,0 +1,41 @@
+Data Structure :
+A data structure is a specialized format for organizing and storing data. 
+A data structure is a particular way of organizing data in a computer so that it can be used effectively.
+This data structures are generally of two types:
+1.linear data structure.
+2.Non-linear data structure.
+some popular linear data structures:
+1. Array
+2. Linked List
+3. Stack
+4. Queue
+1.Array:
+An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together.
+This makes it easier to calculate the position of each element by simply adding an offset to a base value.
+2. Linked List
+One disadvantage of using arrays to store data is that arrays are static structures and therefore cannot be easily extended or 
+reduced to fit the data set. Arrays are also expensive to maintain new insertions and deletions.
+Each element (we will call it a node) of a list is comprising of two items - the data and a reference to the next node.
+The last node has a reference to null. The entry point into a linked list is called the head of the list. 
+The head is not a separate node, but the reference to the first node. If the list is empty then the head is a null reference.
+A linked list is a dynamic data structure. The number of nodes in a list is not fixed and can grow and shrink on demand. 
+Any application which has to deal with an unknown number of objects will need to use a linked list.
+One disadvantage of a linked list against an array is that it does not allow direct access to the individual elements.
+If you want to access a particular item then you have to start at the head and follow the references.
+3. Stack
+A stack is an Abstract Data Type (ADT).
+Stack is a linear data structure which follows a particular order in which the operations are performed.
+The order may be LIFO(Last In First Out) or FILO(First In Last Out).
+Stack operations may involve inserting the data into the stack and deleting the data from stack. 
+A stack is used for the following two primary operations −
+push() − Pushing (storing) an element on the stack.
+pop() − Removing (accessing) an element from the stack.
+4.Queue:
+Queue is an abstract data structure, somewhat similar to Stacks. Unlike stacks, a queue is open at both its ends. 
+One end is always used to insert data (enqueue) and the other is used to remove data (dequeue). 
+Queue follows First-In-First-Out order, i.e., the data item stored first will be accessed first.
+The basic operations associated with queues −
+enqueue() − add (store) an item to the queue.
+dequeue() − remove (access) an item from the queue.
+
+

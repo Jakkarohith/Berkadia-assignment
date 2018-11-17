@@ -1,0 +1,14 @@
+Single thread :
+single-threading is the processing of one command at a time.The opposite of single-threading is multithreading.
+Multithreading :
+Multithreading is mainly found in multitasking operating systems. Multithreading is a widespread programming and execution model 
+that allows multiple threads to exist within the context of one process. These threads share the process's resources, 
+but are able to execute independently. The threaded programming model provides developers with a useful abstraction of concurrent execution.
+Multithreading can also be applied to one process to enable parallel execution on a multiprocessing system.
+Multithreaded applications have the following advantages:
+1.Responsiveness
+2.Faster execution
+3.Lower resource consumption.
+4.Better system utilization.
+5.Simplified sharing and communication.
+6.Parallelization.

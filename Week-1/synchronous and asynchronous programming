@@ -1,0 +1,9 @@
+Synchronous programming:
+In case of synchronous programming, the program execution usually starts at the first line of the source code and each line of code executed 
+sequentially.The program is executed line by line, one line at a time. Each time a function is called, program execution waits until
+that function returns before continuing to the next line of code.This type of programmming is know as Synchronous programming.
+Asynchronous programming:
+In case of asynchronous programming, the program execution wont stop for any operation or a function to complete The result of the each
+operation will be handled only once the result is available.
+
+
