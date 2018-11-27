@@ -13,6 +13,32 @@ const home=`<center><h2>This is home page</h2></center><br>
 app.get('/',(req,res)=>{
 res.send(home);
 });
+app.post('/read', (req, res) => {
+    const schema={
+    filename: Joi.string().min(3).required(),
+    };
+    const result=Joi.validate(req.body,schema);
+    if(result.error)
+    {
+       res.status(404).send("Enter the valid file name");
+       return; 
+    }
+    else{
+    const filename=req.body.filename;
+    fs.exists(filename, function(exists) { 
+       if (exists){
+        fs.readFile(filename, function (err,data) {
+            if (err)  res.send('File is not created.');
+            res.send(data);
+              });
+       }
+       else{      
+        res.send('File is doesnt exists');
+           } 
+   }); 
+   } 
+});
+
 app.post('/create', (req, res) => {
      const schema={
      filename: Joi.string().min(3).required(),
