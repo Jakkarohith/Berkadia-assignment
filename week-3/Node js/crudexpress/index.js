@@ -115,7 +115,7 @@ app.delete('/delete', (req, res) => {
    }); 
    } 
 });
-app.get('/read',(req,res)=>{
+/*app.get('/read',(req,res)=>{
     const dir=__dirname;
     let items=[];
     fs.readdir(dir,(err, items)=>{
@@ -135,5 +135,5 @@ app.get('/read',(req,res)=>{
             });
         } 
     });    
-});      
+});*/      
 app.listen(3000,()=>{console.log("server listening on port 3000..");});
