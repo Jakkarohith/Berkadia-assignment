@@ -1,0 +1,13 @@
+function Student(name, rollnum,college,location,street,district){
+    this.name = name;
+    this.rollnum = rollnum;
+    this.college = college;
+    this.location=location;
+    this.street=street;
+    this.district=district;
+}
+let student1 = new Student(’Jakka rohith’, '1’,'vce','hyderabad','Attapur','Hyderabad');
+let student2 = new Student(’Jakka Gunith’, '2’,'kmit','hyderabad','Attapur','Hyderabad');
+
+console.log(student1.name+" "+student1.rollnum+" "+student1.college+" "+student1.location+" "+student1.street+" "+student1.district);    
+console.log(student2.name+" "+student1.rollnum+" "+student2.college+" "+student2.location+" "+student2.street+" "+student2.district);  

@@ -1,0 +1,65 @@
+let student1= Object.create(Object.prototype,
+  {
+    name:{
+      value: 'Jakka Rohith',
+      configurable: true,
+      writable: true,
+      enumerable: false
+    },
+   rollnum:{
+      value: '1',
+      configurable: true,
+      writable: true,
+      enumerable: true
+    },
+  collegename:{
+      value: 'VCE',
+      configurable: true,
+      writable: true,
+      enumerable: false
+    },
+  state:{
+      value: 'Hyderabad',
+      configurable: true,
+      writable: true,
+      enumerable: false
+    },
+  });
+console.log(student1.rollnum+" "+student1.name+" "+student1.collegename+" "+student1.state); 
+
+
+
+let student2= Object.create(Object.prototype,
+  {
+    name:{
+      value: 'Jakka Gunith',
+      configurable: true,
+      writable: false,
+      enumerable: false
+    },
+   rollnum:{
+      value: '2',
+      configurable: false,
+      writable: true,
+      enumerable: true
+    },
+  collegename:{
+      value: 'KMIT',
+      configurable: false,
+      writable: false,
+      enumerable: false
+    },
+  state:{
+      value: 'Hyderabad',
+      configurable: true,
+      writable: true,
+      enumerable: false
+    },
+ street:{
+      value: 'Attapur',
+      configurable: true,
+      writable: true,
+      enumerable: false
+    },
+  });
+console.log(student2.rollnum+" "+student2.name+" "+student2.collegename+" "+student2.state+" "student2.street);   

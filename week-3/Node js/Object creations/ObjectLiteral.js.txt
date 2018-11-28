@@ -1,0 +1,34 @@
+let student1={
+     name:'jakka rohith',
+     rollnum:'1',
+     college:'Vce',
+     details:function(){
+        return this.rollnum+" "+this.name+" "+this.college;
+    }
+};
+console.log(student1.details()); 
+console.log("Roll number of the student: "+student1.rollnum);
+console.log("Name of the student: "+student1.name);
+console.log("College name: "+student1.college);
+
+let student2={
+     name:'jakka Gunith',
+     rollnum:'3',
+     college:'Kmit',
+     district:'Hyderbad',
+     street:'Nalanda nagar',
+     details:function(){
+        return this.rollnum+" "+this.name+" "+this.college;
+    },
+     fulladdress:function(){
+       return this.street+" "+this.district+" "; 
+    }
+};
+console.log(student2.details());
+console.log(student2.fulladdress());
+console.log("Roll number of the student: "+student2.rollnum);
+console.log("Name of the student: "+student2.name);
+console.log("College name: "+student2.college);
+console.log("Street name: "+student2.street);
+console.log("District name: "+student2.district);
+

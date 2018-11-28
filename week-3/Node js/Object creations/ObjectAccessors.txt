@@ -1,0 +1,8 @@
+let student= {Name:"Jakka Rohith", rollnum:"1", college:"vce", location:"Hyderabad", Street:"Attapur"};
+
+Object.defineProperty(student, "details", {
+    get:function(){return this.Name + " " + this.rollnum + " " + this.college + " " + this.location;}
+});
+console.log(student.details);
+
+

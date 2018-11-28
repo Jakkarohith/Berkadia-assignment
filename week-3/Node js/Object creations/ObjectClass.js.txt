@@ -1,0 +1,19 @@
+class Student{
+  constructor(name, rollnum, college,location,street,district) {
+    this.name = name;
+    this.rollnum =rollnum;
+    this.college = college;
+    this.location=location;
+    this.street=street;
+    this.district=district;
+  }
+  details() {
+    console.log(this.rollnum+" "+this.name+" "+this.college+" "+this.location);
+  }
+}
+let s1 = new Student('jakka rohith', '1', 'vce','Hyderabad','Attapur','Hyderabad');
+s1.details();
+s1.address = function() {
+  console.log(this.street+" "+this.district);
+}
+s1.address();

@@ -1,0 +1,48 @@
+Object :
+An object is a collection of properties, and a property is an association between a name (or key) and a value. 
+A property's value can be a function, in which case the property is known as a method.
+
+There are ways to create object in javascript:
+
+1.Object Literal
+ Object can created in java script using object literal which is a comma-separated list of name-value pairs and
+ methods wrapped in curly braces.Object literal property values can be of any data type, which including array 
+ literals, functions etc.JavaScript touts that objects can be created “ex nilo”, out of nothing — no class, no 
+ template, no prototype — just poof!, an object with methods and data.
+
+2.Using Object.create():
+ Object.create() methord is used to create a new object with the specified prototype object and properties. 
+ Object.create() method returns a new object with the specified prototype object and properties. 
+ Object create() method allows us to define few properties for the object:
+ writable: It describes whether value of the property may be changed.It is applied only to data descriptors.
+ configurable : It describes whether the type of descriptor may be changed, or if the property can be removed.
+ enumerable :It describes whether the property is listed in a loop through the properties of the object.
+ value: It is the value of the property. This property only applies to Data descriptors because they refer values.
+
+
+
+3.Using classes:
+The “class” construct allows to define prototype-based classes with a clean, nice-looking syntax.
+Class methods are non-enumerable :
+A class definition sets enumerable flag to false for all methods in the "prototype".It is effective because if we for..in 
+over an object,we usually don’t want its class methods.
+Classes have a default constructor() {} :
+If there’s no constructor in the class construct, then an empty function is generated, same as if we had written constructor() {}.
+Classes always use strict :
+All code inside the class construct is automatically in strict mode.
+Getters/setters :
+Classes may also include getters/setters.
+
+ 
+
+4.Using functions new keyword:
+Generally in javascript the function without return statement would return undefined value,But when the function is prefixed with the 
+new keyword it would return object.The function declaration invovles the attributes and method inside the function declaration.The 
+object reference is been prefixed with new with the function call.This method is one of the effective method to create objects
+as the function could be reused many number of times to create objects of same type.
+
+
+5.Using object Accessors:
+This method of object creation uses getters and settors.
+It gives simpler syntax in object creation
+It allows same  syntax for both properties and methods
