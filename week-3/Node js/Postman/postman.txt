@@ -1,0 +1,16 @@
+POSTMAN FOR TESTING API:
+Api is a set of rules which defines communication.Api provides interaction between different softwares.
+Api testing involves checking whether the api developed works according to the functionality and to check whether the response is correct.
+
+Postman is an application is used to test the api's.
+It allows users to set up all the headers and cookies the API expects, and checks the response.
+Productivity can be increased using some of the Postman features, which are listed below.
+A test in Postman is fundamentally a JavaScript code, which run after a request is sent and a response has been received from the server.
+
+The response of the application always depends on the request made.
+DELETE Request -For Deleting data.
+POST Request- For Creating data,
+GET Request - For Retrieving/Fetching data
+PUT Request- for Updating data,
+
+Request Body -It contains the data, if any (depends on type of request method), to be sent with request.The request data could be an JSON data.
