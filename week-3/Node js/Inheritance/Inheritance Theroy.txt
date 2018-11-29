@@ -1,0 +1,25 @@
+Inheritance in JavaScript :
+Inheritance in java or any other object oriented language is by one class inherits the other class.
+As Javascript is any object oriented language ,But Inheritance in JavaScript is Prototypal and not
+as object oriented languages.Object oriented inheritance is classical inheritance where the execution is bottom
+up, lower most child to the top most parent.In JavaScript, inheritance is supported by using prototype object. 
+In prototypal inheritance the inheritance is made possible using prototype chaining.
+Prototype chaining :
+Prototype chaining means an objects dunder proto or proto will point to another object instead of pointing 
+to the constructor function prototype. If the other object’s dunder proto or proto property points to another
+object it will results into chain. This is prototype chaining.
+JavaScript is a prototype-based language, meaning object properties and methods can be shared through generalized
+objects that have the ability to be cloned and extended.
+Advantages:
+The main advantage is by prototype chaining we could inherit from multiple parents.
+This is known as prototypical inheritance and differs from class inheritance.
+Among popular oop languages, JavaScript is  unique, from other languages such as PHP, Python, and Java which 
+are class-based languages,which defines classes as blueprint.
+
+Implementation of inhertiance in js:
+When a particluar object's method or property is accessed,the method declaration or property is been searched with 
+respect to object declaration rather then in object's prototype.
+The property or method name is been mapped with respect to entire prototype chain of object until javascript finds
+match and returns null in unsuccessfull state.
+
+

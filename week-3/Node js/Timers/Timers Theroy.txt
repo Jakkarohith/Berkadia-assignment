@@ -1,0 +1,41 @@
+SetTimeOut:
+setTimeOut() is a function which is used to introduce the delay in the code during execution.
+setTimeOut() funtion generally accepts two parameters a callback function which is to be executed 
+and a value which represents a time after which the function has to executed.
+setTimeOut() calls a particular function after specifed number of milliseconds which is represented as first
+parameter.
+Syntax: 
+setTimeout(Callbackfunction, milliseconds, parameters)
+
+var settime=setTimeout(()=>{
+    console.log("This function is delay by 10 seconds");
+},10000);
+
+clearTimeOut():
+This is a function which is used to prevent setTimeOut function from being executed.
+clearTimeOut() accepts the variable of setTimeOut function as an argument.  
+
+var settime=setTimeout(()=>{
+    console.log("This function is delay by 10 seconds");
+},10000);
+
+clearTimeOut(settime);
+
+SetInterval():
+setInterval() is a function which is used to introduce the delay in the code during execution and 
+repeats the execution of the function continuously.
+setInterval() funtion generally accepts two parameters a callback function which is to be executed 
+and a value which represents a time after which the function has to executed.
+setInterval() calls a particular function after specifed number of milliseconds which is represented as first
+parameter and repeats the execution repeatedly.
+Syntax: 
+setInterval(Callbackfunction, milliseconds, parameters)
+clearInterval():
+This is a function which is used to prevent setInterval function from being executed.
+clearTimeOut() accepts the variable of setInterval function as an argument.  
+
+
+setIntermediate():
+The function passed to setImmediate()  as an argument is a callback that’s executed in the next iteration 
+of the event loop.
+A setTimeout() function with a 0ms delay is similar to setImmediate().
