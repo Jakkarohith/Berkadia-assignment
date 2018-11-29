@@ -115,25 +115,4 @@ app.delete('/delete', (req, res) => {
    }); 
    } 
 });
-/*app.get('/read',(req,res)=>{
-    const dir=__dirname;
-    let items=[];
-    fs.readdir(dir,(err, items)=>{
-        if(err) res.send('Error.');
-        console.log(items);
-        if(items.length==0)
-        {
-         res.send("No files created yet");
-         return;   
-        }
-        else{
-            items.forEach(function (file) {
-                fs.readFile(file, function (err,data) {
-                    if (err)  res.send('File is not created.');
-                    res.send(data);
-                });
-            });
-        } 
-    });    
-});*/      
 app.listen(3000,()=>{console.log("server listening on port 3000..");});
