@@ -1,0 +1,13 @@
+Null:
+Null is a keyword in JavaScript that signifies ‘no value’ or nonexistence of any value. 
+If you wish to shred a variable off its assigned value, you can simply assign ‘null’ to it. 
+Besides this, like any other object, it is never implicitly assigned to a variable by JavaScript.
+
+Undefined:
+‘Undefined’ is a global variable that JavaScript creates at run time. This global variable is assigned
+ to an object in one of the following cases Declared but not defined, Array index or object property that does not exist. etc
+
+Undeclared:
+The use  of'console.log();' and 'type of' to check if a variable is undefined or null. undeclared 
+variables is a variable that has been declared without 'var' keyword. var testVar = 'hello world';
+When former code is executed, undeclared variables are created as global variable and they are configurable
