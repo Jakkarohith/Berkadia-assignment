@@ -1,0 +1,29 @@
+1.map() function:
+It was introduced in ECMAscript5.
+The map() method creates a new array with the results of calling a function for every array element
+The map() method calls the provided function once for each element in an array, in order.
+NOTE:1. map() does not execute the function for array elements without values.
+     2. map() does not change the original array.
+Syntax:
+array.map(function(currentValue, index, arr), thisValue);
+Return Value:
+An Array containing the results of calling the provided function for each element in the original array.
+
+2.filter() function:
+The filter() method creates an array filled with all array elements that pass a test (provided as a function).
+Note: 1.filter() does not execute the function for array elements without values.
+      2.filter() does not change the original array.
+Syntax
+array.filter(function(currentValue, index, arr), thisValue);
+Return Value:	
+An Array containing all the array elements that pass the test. If no elements pass the test it returns an empty array.
+
+3.reduce() function:
+The reduce() method reduces the array to a single value.
+The reduce() method executes a provided function for each value of the array (from left-to-right).
+The return value of the function is stored in an accumulator (result/total).
+Note: reduce() does not execute the function for array elements without values.
+Syntax
+array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
+Return Value:	
+Returns the accumulated result from the last call of the callback function
