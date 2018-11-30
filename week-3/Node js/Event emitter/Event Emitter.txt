@@ -1,0 +1,12 @@
+EventEmitter Class:
+
+// Import events module
+var events = require('events');
+
+// Create an eventEmitter object
+var eventEmitter = new events.EventEmitter();
+
+When an EventEmitter instance faces any error, it emits an 'error' event. When a new listener is added,
+'newListener' event is fired and when a listener is removed, 'removeListener' event is fired.
+EventEmitter provides multiple properties like on and emit. on property is used to bind a
+function with the event and emit is used to fire an event.
