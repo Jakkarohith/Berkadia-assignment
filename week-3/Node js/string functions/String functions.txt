@@ -1,0 +1,99 @@
+String functions:
+String functions are the predefined functions which are used to perform maniulations on the string.
+
+1.String Length:
+The length property returns the length of a string.
+example:
+var input="hi hello im jakka"
+var strlen=inout.length; //Length of the string:17
+
+2.indexOf():
+The indexOf() method returns the index of (the position of) the first occurrence of a specified text in a string.
+JavaScript counts positions from zero.
+example:
+var str = "Please locate where 'locate' occurs!";
+var pos = str.indexOf("locate");
+
+3.lastIndexOF():
+The lastIndexOf() method returns the index of the last occurrence of a specified text in a string.
+example:
+var str = "Please locate where 'locate' occurs!";
+var pos = str.lastIndexOf("locate");
+
+NOTE:Both indexOf(), and lastIndexOf() return -1 if the text is not found.
+
+4.serach():
+The search() method searches a string for a specified value and returns the position of the match:
+example:
+var str = "Please locate where 'locate' occurs!";
+var pos = str.search("locate");
+
+5.slice():
+slice() extracts a part of a string and returns the extracted part in a new string.
+The method takes 2 parameters: the starting index (position), and the ending index (position).
+example:
+var str = "Apple, Banana, Kiwi";
+var res = str.slice(7, 13);//banana
+
+6.substring():
+substring() is similar to slice().
+The difference is that substring() cannot accept negative indexes.
+example:
+var str = "Apple, Banana, Kiwi";
+var res = str.substring(7, 13);//banana
+
+7.substr():
+substr() is similar to slice().
+The difference is that the second parameter specifies the length of the extracted part.
+var str = "Apple, Banana, Kiwi";
+var res = str.substr(7, 6);//banana
+
+8.replace():
+The replace() method replaces a specified value with another value in a string:
+example:
+str = "Please visit Microsoft!";
+var n = str.replace("Microsoft", "W3Schools");
+
+NOTE:
+1.The replace() method does not change the string it is called on. It returns a new string.
+2.By default, the replace() function replaces only the first match.
+
+9.toUpperCase():
+A string is converted to upper case with toUpperCase():
+example:
+var text1 = "Hello World!";       
+var text2 = text1.toUpperCase();  // text2 is text1 converted to upper
+
+10.toLowerCase():
+A string is converted to lower case with toLowerCase().
+example;
+var text1 = "Hello World!";       
+var text2 = text1.toLowerCase();  // text2 is text1 converted to lower
+
+11.concat():
+concat() joins two or more strings.
+example:
+var text1 = "Hello";
+var text2 = "World";
+var text3 = text1.concat(" ", text2);
+
+12.trim():
+String.trim() removes whitespace from both sides of a string.
+example:
+var str = "       Hello World!        ";
+console.log(str.trim());
+
+13.charAt():
+The charAt() method returns the character at a specified index (position) in a string:
+example:
+var str = "HELLO WORLD";
+str.charAt(0);            // returns H
+
+14.charCodeAt():
+The charCodeAt() method returns the unicode of the character at a specified index in a string:
+The method returns a UTF-16 code (an integer between 0 and 65535).
+example:
+var str = "HELLO WORLD";
+str.charCodeAt(0);         // returns 72
+
+
