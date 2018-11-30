@@ -1,0 +1,27 @@
+Call:
+The call() method is used to write a method that can be used on different objects.
+It can be used to invoke (call) a method with an owner object as an argument (parameter).
+this Keyword:
+In a function definition, this refers to the "owner" of the function.
+
+bind:
+The bind() method creates a new function that, when called, has its this keyword set to the 
+provided value, with a given sequence of arguments preceding any provided when the new function is called.
+
+apply:
+With the apply() method, you can write a method that can be used on different objects.
+The apply() method accepts arguments in an array
+
+
+The difference is:
+The call() method takes arguments separately.
+The apply() method takes arguments as an array.
+The apply() method is very handy if you want to use an array instead of an argument list.
+
+
+
+
+
+
+
+
