@@ -1,0 +1,61 @@
+Apache:
+Apache is a popular open-source, cross-platform web server that is, by the numbers, the most popular web server in existence. 
+It’s actively maintained by the Apache Software Foundation.Some high-profile companies using Apache include Cisco, IBM, Salesforce,
+General Electric, Adobe, VMware, Xerox, LinkedIn, Facebook, Hewlett-Packard, AT&T, Siemens, eBay, and many more (source).
+In addition to its popularity, it’s also one of the oldest web servers, with its first release all the way back in 1995.
+Many cPanel hosts utilize Apache today. Like other web servers, Apache powers the behind-the-scenes aspects of serving your
+website’s files to visitors.Because Apache doesn’t perform as well in some benchmarks, especially for static websites or websites
+with high traffic, Kinsta uses the NGINX web server instead of Apache. Though NGINX hasn’t been around for as long as Apache, 
+it’s quickly grown in popularity and market share since its launch in 2004.
+How Does Apache Work? Web Server Basics Explained
+While there’s a lot of complexity underpinning how a web server functions, the basic job of all web servers is to accept requests 
+from clients (e.g. a visitor’s web browser) and then send the response to that request 
+The Apache web server has modules which add more functions to its software, such as MPM (for handling multi-processing modes) 
+or mod_ssl for enabling SSL v3 and TLS support. Some common features seen in Apache include:
+.htaccess
+IPv6
+FTP
+HTTP/2
+Perl, Lua, and PHP
+Bandwidth throttling
+WebDAV
+Load balancing
+URL rewriting
+Session tracking
+Geolocation based on IP address
+Ngnix:
+NGINX, pronounced like “engine-ex”, is an open-source web server that, since its initial success as a web server, is now 
+also used as a reverse proxy, HTTP cache, and load balancer.Some high-profile companies using NGINX include Autodesk,
+Atlassian, Intuit, T-Mobile, GitLab, DuckDuckGo, Microsoft, IBM, Google, Adobe, Salesforce, VMWare, Xerox, LinkedIn, Cisco,
+Facebook, Target, Citrix Systems, Twitter, Apple, Intel, and many more (source).NGINX was originally created by Igor Sysoev,
+with its first public release in October 2004. Igor initially conceived the software as an answer to the C10k problem, which is
+a problem regarding the performance issue of handling 10,000 concurrent connections.Because its roots are in performance
+optimization under scale, NGINX often outperforms other popular web servers in benchmark tests, especially in situations
+with static content and/or high concurrent requests, which is why Kinsta uses NGINX to power its hosting.
+How Does NGINX Work?
+NGINX is built to offer low memory usage and high concurrency. Rather than creating new processes for each web request,
+NGINX uses an asynchronous, event-driven approach where requests are handled in a single thread.
+With NGINX, one master process can control multiple worker processes. The master maintains the worker processes,
+while the workers do the actual processing. Because NGINX is asynchronous, each request can be executed by the worker 
+concurrently without blocking other requests.
+
+Some common features seen in NGINX include:
+
+Reverse proxy with caching
+IPv6
+Load balancing
+FastCGI support with caching
+WebSockets
+Handling of static files, index files, and auto-indexing
+TLS/SSL with SNI
+NGINX vs Apache Usage Stats
+Apache is another popular open-source web server. In terms of raw numbers, Apache is the most popular web server in existence and is used by 47% of all websites with a known web server, according to W3Techs.
+
+While Apache is the most popular overall option, NGINX is actually the most popular web server among high-traffic websites.
+
+When you break down usage rates by traffic, NGINX powers:
+
+56.1% of the 100,000 most popular sites
+63.2% of the 10,000 most popular sites
+57% of the 1,000 most popular sites
+In fact, NGINX is used by some of the most resource-intensive sites in existence, including Netflix, NASA, and even WordPress.com.
