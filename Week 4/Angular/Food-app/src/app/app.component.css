@@ -1,0 +1,12 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+h1{
+    color: #e60000;
+    font-family:"MV Boli" ;
+    font-size: 40px;
+    text-align:center;
+    text-decoration-color: #e60000;
+    margin: 20px 125px 0px ; 
+   }
+   

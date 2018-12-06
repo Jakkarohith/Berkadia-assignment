@@ -1,0 +1,3 @@
+
+<h1 style="text-align: center;">No of items in cart : {{totalCartValue}}</h1>
+<app-food-items [items]="items" (addCartResult)="AddItemCounter($event)" (removeCartResult)="RemoveItemCounter($event)" ></app-food-items>

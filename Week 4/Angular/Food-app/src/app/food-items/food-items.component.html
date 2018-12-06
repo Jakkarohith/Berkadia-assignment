@@ -1,0 +1,16 @@
+<div class="row" id="layout" >
+   <ng-container *ngFor="let item of items;let i =index">
+      <div class="col">
+          <div class="card" style="width: 35rem;margin-left: 120px;margin-top: 10px;margin-bottom: 50px;">
+              <img class="card-img-top" src="{{item.image}}" alt="{{item.name}}">
+              <div class="card-body">
+                <h5 class="card-title">{{item.name}}</h5>
+                <p class="card-text">{{item.desc}}</p>
+                <button style="margin-left: 130px;margin-right: 40px;" href="#" class="btn  btn-outline-primary" (click)="addItem()">Add item</button>
+                <button href="#" class="btn  btn-outline-primary" id="removebutton" (click)="removeItem()">Remove item</button>
+              </div>
+            </div>
+       </div> 
+       <div  *ngIf="(i+1)%2===0" class="w-100"></div>   
+   </ng-container>
+</div>
