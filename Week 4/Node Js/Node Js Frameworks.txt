@@ -1,0 +1,69 @@
+ExpressJS :
+Express.js a lightweight, efficient middleware and routing framework.ExpressJS is a prebuilt NodeJS 
+framework that can help you in creating server-side web applications faster and smarter. Simplicity,
+minimalism, flexibility, scalability are some of its characteristics and since it is made in NodeJS 
+itself, it inherited its performance as well.In short, ExpressJS did for NodeJS what Bootstrap did for
+HTML/CSS and responsive web design.
+It made coding in NodeJS a piece of cake and gave programmers some additional features to extend their
+server-side coding.
+The main limitations of ExpressJS :
+-A lot of manual labor is required since you need to create all endpoints
+-As your codebase size increases, refactoring becomes very painful
+-You need to figure out the packages to suit your needs (like ORM) or in worst case write your own.
+
+Hapi.js :
+Inorder to acheive enterpise-level functionality and working with distributed engineering team. Hapi.js is
+best possible framework. Hapi.js was created by developers at Walmart in preparation for Black Friday 
+traffic as an answer to limitations they’d run into with Express—mainly extensibility and maintainability 
+issues. They found that, as the application grew, Express code was more difficult to split into chunks and 
+delegate to different teams. Hapi’s plug-in system enables it to be worked on without breaking 
+the rest of the code base.
+Hapi does a lot more than Express. While there are similarities and differences between
+the two frameworks, Hapi which is primarily used for rapidly building and testing application programming 
+interfaces (APIs)—generally enables developers to focus more on writing reusable application logic instead 
+of spending time building infrastructure. It supports API development with an array of plug-ins from authorization
+and authentication to metrics and logging.
+
+Koa.js :
+Koa.js is lightweight, a callback -less middleware framework which is been developed by the same authors of express.
+Koa.js is a powerful server framework for Node.js to build efficient web applications and APIs. Koa.js efficiently uses generators to deal with callbacks and 
+increase error-handling capabilities. This framework might not be the best for first-timers developing Node.js 
+servers as it does have some of its own quirks and methods to learn, but it does support ES6, the latest release
+of JavaScript.
+
+Total.js :
+Total.js is a full-stack model-view controller (MVC) framework that builds highly responsive web apps with 
+JavaScript, HTML, and CSS. It’s compatible with client-side frameworks like AngularJS, Backbone.js, React, 
+Ember, and Bootstrap and isn’t limited by a single database compatibility. The framework contains a full web 
+server, SMTP mail sender, image processing, web sockets, and other helpful utilities. When it comes to databases,
+it’s compatible with everything from MongoDB and CouchDB to PostgreSQL, SQLite, and MySQL.
+
+Sails.js
+Sails.js is another MVC microframework for data-heavy enterprise-grade apps, and it’s built off of 
+Express.js. It’s used for HTTP requests, with some Ruby on Rails-inspired magic. Its MVC pattern is based on 
+Express and Socket.IO and is ideal for writing data-oriented applications and real-time features like a chat 
+application. It’s also compatible with a ton of front-end frameworks, like AngularJS. Where it differs 
+(and shines) is its API structure, automatically generating RESTful JSON models with support for websockets and
+HTTP.
+
+FeathersJS
+Feathers is a real-time, micro-service web framework for Node.js that gives you control over your data via RESTful
+resources, sockets, and flexible plug-ins.
+
+KeystoneJS
+Keystone is a full-stack, open-source framework that’s also ideal for developing database-driven websites, 
+applications, and APIs on top of Node.js. It’s robust enough to be reliable for enterprise-level development,
+and was built on the Express framework, the Mongoose framework, and the MongoDB database. Mongoose gives it 
+great asynchronous capabilities.
+
+Socket.io
+Socket.io is all about real-time communication and chat apps—the kind of software that hinges on robust 
+event-driven, bidirectional communication between browsers and servers. It’s a websocket-compatible server that’s
+great at providing collaborative features and real-time analytics, whether they’re in the form of a counter or 
+more in-depth metrics. Socket.io is compatible with every device, operating system, and browser.
+
+StrongLoop/LoopBack
+LoopBack (and its StrongLoop API platform) is a highly extensible Node.js API framework from IBM used in stacks 
+at companies.LoopBack APIs are capable of connecting devices, and integrate with Android and AngularJS SDKs 
+for app creation. As for database compatibility, it supports Oracle,Mongo, and SQL
+

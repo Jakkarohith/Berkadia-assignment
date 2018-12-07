@@ -1,0 +1,31 @@
+#Distributed denial of service:
+A distributed denial-of-service (DDoS) attack is a malicious attempt to disrupt normal traffic of a targeted
+server, service or network by overwhelming the target or its surrounding infrastructure with a flood of Internet
+traffic.
+DDoS attacks achieve effectiveness by utilizing multiple compromised computer systems as sources of 
+attack traffic. Exploited machines can include computers and other networked resources such as IoT devices.
+From a high level, a DDoS attack is like a traffic jam clogging up with highway, preventing regular traffic 
+from arriving at its desired destination.
+
+#How DDoS Attacks Work
+In a DDoS attack, the incoming traffic flooding the victim originates from many different sources – potentially
+hundreds of thousands or more. This effectively makes it impossible to stop the attack simply by blocking a
+single IP address; plus, it is very difficult to distinguish legitimate user traffic from attack traffic when
+spread across so many points of origin.
+
+#The Difference Between DoS and DDos Attacks
+A Denial of Service (DoS) attack is different from a DDoS attack. The DoS attack typically uses one computer
+and one Internet connection to flood a targeted system or resource. The DDoS attack uses multiple computers 
+and Internet connections to flood the targeted resource. DDoS attacks are often global attacks, distributed 
+via botnets.
+
+#Types of DDoS Attacks
+There are many types of DDoS attacks. Common attacks include the following:
+#Traffic attacks: Traffic flooding attacks send a huge volume of TCP, UDP and ICPM packets to the target.
+Legitimate requests get lost and these attacks may be accompanied by malware exploitation.
+
+#Bandwidth attacks: This DDos attack overloads the target with massive amounts of junk data. This results 
+in a loss of network bandwidth and equipment resources and can lead to a complete denial of service.
+
+#Application attacks: Application-layer data messages can deplete resources in the application layer, 
+leaving the target's system services unavailable.
