@@ -23,3 +23,6 @@ These plugins allow you to use new syntax, right now without waiting for browser
 ```
 npm install --save-dev @babel/preset-react
 ```
+Babel provides a ripple which is used to convert higher versions of Javascript to the ES5 code which code used 
+in browsers.
+!(https://github.com/Jakkarohith/Berkadia-assignment/blob/master/Week-5/Node%20assignment/Babel/Screenshot%20(148).png)
