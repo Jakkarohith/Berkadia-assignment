@@ -15,31 +15,27 @@ export class FoodCartComponent implements OnInit {
   resultadd:number=0;
   resultremove:number=0;
   totalCartValue:number=0;
-  AddItemCounter(result) {
-     if(result>=this.resultremove)
-     {
+AddItemCounter(result){
+    if(this.totalCartValue==0)
+    {
+      this.resultadd=0; 
+    }
       this.totalCartValue =result;
       this.resultadd=result;
-     }
-     else{
-       this.totalCartValue=0;
-       this.resultadd=0;
-     }
     }
   RemoveItemCounter(resultRemove) {
     this.resultremove=resultRemove;
-    if(resultRemove>this.resultadd)
+    if(this.resultadd>0)
     {
-    this.resultremove=0;
-    this.totalCartValue=0;  
-    }
-    else{
       this.totalCartValue=this.resultadd-1;
       this.resultadd=this.resultadd-1;
-      this.resultremove=this.resultremove-1;
+      this.resultremove=0;
+       }
+    else{
+      this.resultremove=0;
+      this.totalCartValue=0;    
     }
-      }
-  items:{name: string,desc:string, image: string }[]=[
+      }  items:{name: string,desc:string, image: string }[]=[
     {
      name: "Chocolate-Mint Bars" ,
      desc: "You'll love these Chocolate-Mint Bars if you're a big fan of the thin chocolate-mint Girl Scout cookies or Andes candies.",
