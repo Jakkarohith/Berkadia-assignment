@@ -1,0 +1,12 @@
+<div id="layout">
+    <div class="pad" *ngFor="let chef of chefs;">
+           <div class="card"  >
+               <img class="card-img-top" src="{{chef.image}}" alt="{{chef.name}}">
+               <div class="card-body">
+                 <h5 class="card-title">{{chef.name}}</h5>
+                 <p class="card-text">{{chef.Desc}}</p>
+               </div>
+            </div>
+        <div  *ngIf="(i+1)%2===0" class="w-100"></div>   
+      </div>
+  </div>

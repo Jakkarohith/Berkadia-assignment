@@ -1,0 +1,9 @@
+
+<div id="layout">
+    <div class="pad" *ngFor="let amb of ambience;let i =index">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top1" src="{{amb.image}}">
+          </div>
+            </div>
+        <div  *ngIf="(i+1)%2===0" class="w-100"></div>   
+</div>
