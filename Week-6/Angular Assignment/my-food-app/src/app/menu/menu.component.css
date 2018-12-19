@@ -1,0 +1,31 @@
+#fooditems {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    box-shadow: 20px 20px 50px #ddd;
+  }
+  
+  #fooditems td, #fooditems th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  #fooditems tr:nth-child(even){background-color: #f2f2f2;}
+
+  
+  #fooditems tr:hover {background-color: #ddd;
+  font-size: 20px;}
+
+  #fontfamily{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+ }
+
+  
+  #fooditems th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ff6666;
+    color: white;
+  }

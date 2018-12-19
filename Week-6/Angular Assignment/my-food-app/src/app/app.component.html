@@ -1,0 +1,45 @@
+  <div class="jumbotron-fluid " >
+        <h1 class="display-4">The Food store</h1>
+        <p class="lead">We love you like a fat kid loves cake!!</p>
+    </div>
+
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+    <li class="nav-item" routerLinkActive="active current">
+      <a class="nav-link" routerLink="/home">Home</a>
+    </li>
+    <li class="nav-item" routerLinkActive="active current" >
+      <a class="nav-link" routerLink="/chefs">Chefs</a>
+    </li>
+    <li class="nav-item" routerLinkActive="active current">
+      <a class="nav-link" routerLink="/food">Food</a>
+    </li>
+    <li class="nav-item" routerLinkActive="active current">
+        <a class="nav-link" routerLink="/ambience">Ambience</a>
+      </li>
+     <li class="nav-item" routerLinkActive="active current">
+          <a class="nav-link" routerLink="/menu">Menu</a>
+      </li>
+  </ul>
+  <form class="form-inline my-2 my-lg-0">
+    <button class="btn btn-outline-danger  my-2 my-sm-0" (click)=login()>  Log-in  </button>
+    <button class="btn btn-outline-danger  my-2 my-sm-0" (click)=logout()>Logout</button>
+  </form>
+</div>
+</nav>
+<router-outlet></router-outlet>
+<!-- 
+<div [ngSwitch]="value" >
+<div *ngSwitchCase="'Menu'" align="center"><h5>Menu</h5></div>
+<div *ngSwitchCase="'Our Chefs'" align="center"><h5>This are our chefs!!</h5></div>
+<div *ngSwitchCase="'Food Overview'" align="center"><h5>Pull up a chair. Take a taste. Come join us. Life is so endlessly delicious.</h5></div>
+<div *ngSwitchCase="'Ambience Overview'" align="center"><h5>Let's get loose with Compassion. Let's drown in the delicious ambience of Love.</h5></div>
+<div *ngSwitchCasedefault></div>
+</div>
+
+
+--> 

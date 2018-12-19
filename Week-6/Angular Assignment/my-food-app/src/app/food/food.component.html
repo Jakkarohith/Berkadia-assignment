@@ -1,0 +1,9 @@
+<div id="layout">
+    <div class="pad" *ngFor="let food of fooditems;let i =index">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top1" src="{{food.image}}" alt="{{food.name}}">
+            <a routerLink="['food',{{food.name}}]">{{food.name}}</a>
+          </div>
+            </div>
+        <div  *ngIf="(i+1)%2===0" class="w-100"></div>   
+</div>

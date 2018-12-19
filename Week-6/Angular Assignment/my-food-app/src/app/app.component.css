@@ -1,0 +1,91 @@
+
+  h2
+  {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+h5
+{
+  font-size:30px;  
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+  
+.list1{
+    background-color: #fff;
+    width: 320px;
+    border-radius: 5px;
+    display: inline-block;
+    color: #3c3c3b
+}
+.row{
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    padding: 5px; 
+}
+.jumbotron-fluid{
+   margin-left: 40px;
+   margin-top: 20px 
+}
+.nav-item
+{
+margin-left: 15px;
+margin-right: 15px;    
+}
+a
+{
+font-size: 20px;    
+color: #ff1a1a;
+margin-bottom: 10px;
+}
+h1{
+    color: #ff1a1a;
+    font-weight: initial ;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;   
+}
+p
+{
+    margin-left: 10px;
+    font-family: "Trebuchet MS", Arial,  sans-serif;
+    size: 10px
+}
+#heading
+{
+ height: 150px;
+ background-color: #ffffff;   
+}
+#addbutton{
+  margin-right: 5px;  
+}
+.layout{
+    width:100%;
+    padding: 30px;
+}
+.card{
+    width :100%;
+    
+    /* min-width: 400px; */
+}
+.card-img-top{
+    width: 100%;
+    height: 500px;
+}
+.card-img-top1{
+    width: 650px;
+    height: 400px;
+}
+
+.card-body{
+    height: 200px;
+}
+.card-title{
+    font-size: 50px
+}
+.card-text{
+    font-size: 20px
+}
+.pad{
+    width: 50%;
+    padding: 10px;
+    float: left;
+}

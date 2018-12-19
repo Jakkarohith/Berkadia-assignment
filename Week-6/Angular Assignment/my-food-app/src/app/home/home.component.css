@@ -1,0 +1,19 @@
+.text-white {
+    color:  #ff1a1a;
+    font-weight: bold;
+}
+.container
+{
+ margin-bottom: 0px;   
+}
+.text-muted
+{
+  font-size:25px;  
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+.carousel-inner img
+{
+height: 700px;
+width: 800px;
+}
