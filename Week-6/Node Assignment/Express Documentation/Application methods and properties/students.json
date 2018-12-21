@@ -1,0 +1,32 @@
+[
+    {
+         "id":1,
+        "name":"rohith",
+        "location":"hyderabad",
+        "marks":40
+     } ,
+     {
+        "id":2,
+        "name":"anandu",
+        "location":"gachibowli",
+        "marks":60
+     }, 
+     {
+        "id":3,
+        "name":"sharu",
+        "location":"mallepally",
+        "marks":90
+     } ,
+     {
+        "id":4,
+        "name":"chaitu ",
+        "location":"shamshabad",
+        "marks":90
+     } ,
+     {
+        "id":5,
+        "name":"hareesh",
+        "location":"attapur",
+        "marks":100
+     }     
+]
