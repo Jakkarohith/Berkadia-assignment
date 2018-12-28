@@ -1,0 +1,39 @@
+<br><br><br>
+<div align="center">
+    <p class="head">Starship details in Starwars :Episode {{episode_num}}</p>
+  </div>
+<div>   
+<div id="layout">
+    <div class="pad" *ngFor="let shipdata of starwarshipdata;index as i">
+        <div class="card" style="width:38rem;height: 28rem">
+          <div class="card-body">
+              <p class="card-title">
+               <strong><i>Name</i></strong>:{{shipdata.name}}
+             </p>            
+             <p class="card-title">
+              <strong><i>Created</i></strong>:{{shipdata.created}}
+              </p>   
+              <p class="card-title">
+                <strong><i>Cargo capacity</i></strong>:{{shipdata.cargo_capacity}}
+              </p>            
+              <p class="card-title">
+              <strong><i>Consumables</i></strong>:{{shipdata.consumables}}
+              </p>            
+              <p class="card-title">
+                <strong><i>Cost in credits</i></strong>:{{shipdata.cost_in_credits}}
+              </p>                     
+              <p class="card-title">
+                <strong><i>Manufacturer</i></strong>:{{shipdata.manufacturer}}
+              </p>            
+              <p class="card-title">
+                <strong><i>Max atmosphering speed</i></strong>:{{shipdata.max_atmosphering_speed}}
+              </p>
+              <p class="card-title">
+                <strong><i>Hyperdrive rating</i></strong>:{{shipdata.hyperdrive_rating}}
+              </p>                        
+          </div>
+        </div>
+        </div>
+      <div  *ngIf="(i+1)%2===0" class="w-100"></div>   
+  </div>
+</div>

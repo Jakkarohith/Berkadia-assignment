@@ -1,0 +1,45 @@
+<br><br><br>
+<div align="center">
+    <p class="head">Characters of Starwars :Episode {{episode_num}}</p>
+  </div>
+<div>   
+<div id="layout">
+    <div class="pad" *ngFor="let characterdata of starwarcharacterdata;index as i">
+        <div class="card" style="width:38rem;height: 27rem">
+          <div class="card-body">
+              <p class="card-title">
+              <strong><i>Name</i></strong>:{{characterdata.name}}
+            </p>            
+              <p class="card-title">
+                <strong><i>Date of birth</i></strong>:{{characterdata.birth_year}}
+                </p>            
+              <p class="card-title">
+                <strong><i>Gender</i></strong>:{{characterdata.gender}}
+              </p>            
+              <p class="card-title">
+                <strong><i>Eye Color</i></strong>:{{characterdata.eye_color}}
+              </p>            
+              <p class="card-title">
+                <strong><i>Hair Color</i></strong>:{{characterdata.hair_color}}
+                </p>            
+              <p class="card-title">
+                <strong><i>Height</i></strong>:&nbsp;&nbsp;&nbsp; {{characterdata.height}}
+              </p>            
+              <p class="card-title">
+                <strong><i>Skin Color</i>
+                </strong>:{{characterdata.skin_color}}
+              </p>
+              <p class="card-title">
+                <strong><i>Mass</i></strong>:{{characterdata.mass}}
+              </p>                        
+          </div>
+        </div>
+        </div> 
+      <div  *ngIf="(i+1)%2===0" class="w-100"></div>   
+  </div>
+</div>
+<div align="center">
+  <h4>Wanna to know about planets involved??</h4>
+              <button  class="btn btn-outline-danger floated" (click)="viewPlanetDetails(starwardata.episode_id)" >View more>></button>
+            <button  class="btn btn-outline-danger floated" (click)="goHome()" >Go back home</button>
+          </div>  

@@ -1,0 +1,44 @@
+<br><br><br>
+<div align="center">
+    <p class="head">Planets details in Starwars :Episode {{episode_num}}</p>
+  </div>
+<div>   
+<div id="layout">
+    <div class="pad" *ngFor="let planetdata of starwarplanetdata;index as i">
+        <div class="card" style="width:38rem;height: 27rem">
+          <div class="card-body">
+              <p class="card-title text-spacing-5">
+               <strong><i>Name</i></strong>:{{planetdata.name}}
+             </p>            
+              <p class="card-title">
+                <strong><i>Climate</i></strong>:{{planetdata.climate}}
+              </p>            
+              <p class="card-title">
+              <strong><i>Diameter</i></strong>:{{planetdata.diameter}}
+              </p>            
+              <p class="card-title">
+                <strong><i>Gravity</i></strong>:{{planetdata.gravity}}
+              </p>            
+              <p class="card-title">
+                <strong><i>Orbital period</i></strong>:{{planetdata.orbital_period}}
+                </p>            
+              <p class="card-title">
+                <strong><i>Population</i></strong>:{{planetdata.population}}
+              </p>            
+              <p class="card-title">
+                <strong><i>Rotation period</i></strong>:{{planetdata.rotation_period}}
+              </p>
+              <p class="card-title">
+                <strong><i>Terrain</i></strong>:{{planetdata.terrain}}
+              </p>                        
+          </div>
+        </div>
+        </div>
+      <div  *ngIf="(i+1)%2===0" class="w-100"></div>   
+  </div>
+</div>
+<!-- <div align="center">
+  <h4>Wanna to know about planets involved??</h4>
+              <button  class="btn btn-outline-danger floated" (click)="viewPlanetDetails(starwardata.episode_id)" >View more>></button>
+            <button  class="btn btn-outline-danger floated" (click)="goHome()" >Go back home</button>
+          </div>   -->

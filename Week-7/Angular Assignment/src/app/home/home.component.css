@@ -1,0 +1,57 @@
+#dimen
+{
+width: 1200px;
+height: 700px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.head
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  font-family:"MV Boli" 
+  /* font-family:  "Palatino Linotype", "Book Antiqua",' Palatino', serif;  */
+}
+
+.layout{
+  width:100%;
+  padding: 30px;
+}
+.card{
+  width :100%;
+  
+  /* min-width: 400px; */
+}
+.card-img-top{
+  width: 100%;
+  height: 500px;
+}
+.card-img-top1{
+  width: 650px;
+  height: 400px;
+}
+.card{
+  box-shadow: 20px 20px 50px #e6e6e6;
+}
+.card-body{
+  height: 200px;
+}
+.card-title{
+  font-size: 45px
+}
+.card-text{
+  font-size: 20px
+}
+.pad{
+  width: 50%;
+  padding: 10px;
+  float: left;
+}
