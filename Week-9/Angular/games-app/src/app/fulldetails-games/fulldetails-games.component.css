@@ -1,0 +1,55 @@
+.modal {
+    width: 55%;
+    height: 500px;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    margin-top: -100px;
+    margin-left: -150px;
+    background-color: #f1c40f;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 11;
+    /* 1px higher than the overlay layer */
+}
+#fulldetails {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 30%;
+    box-shadow: 20px 20px 50px #ddd;
+  }
+  
+  #fulldetails td, #fulldetails th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  #fulldetails tr:nth-child(even){background-color: #f2f2f2;}
+
+  
+  #fulldetails tr:hover {background-color: #ddd;
+  font-size: 20px;}
+
+  #fontfamily{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+ }
+
+  
+  #fulldetails th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ff6666;
+    color: white;
+  }
+  .head
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ff6666;
+  font-size: 50px;
+  font-weight: bold;
+  font-family:"MV Boli" 
+  /* font-family:  "Palatino Linotype", "Book Antiqua",' Palatino';  */
+}

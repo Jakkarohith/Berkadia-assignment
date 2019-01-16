@@ -1,0 +1,22 @@
+<div align="center">
+  <p class="head">
+  Top 10 PC games
+  </p>
+</div>  
+<div id="layout">
+  <div class="pad" *ngFor="let game of gamesApidata;let i of index">
+      <div class="card" style="width: 38rem;height:45rem">
+          <img src={{game.game_image}} style="width:607px;height:400px" class="card-img-top" alt="...">
+          <div style="height:100px" class="card-body">
+            <h5 class="card-title">{{game.game_name}}</h5>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong style="font-size:20px">Game rank :</strong>&nbsp;&nbsp;<i style="font-size:20px">{{game.game_rank}}</i></li>
+            <li class="list-group-item"><strong style="font-size:20px">Game Published by :</strong>&nbsp;&nbsp;<i style="font-size:20px">{{game.game_by}}</i></li>
+            <li class="list-group-item"><strong style="font-size:20px">Game release year :</strong>&nbsp;&nbsp;<i style="font-size:20px">{{game.game_release_year}}</i></li>
+            <li class="list-group-item"> <a  class="btn btn-outline-danger" aria-haspopup="true" aria-expanded="false"  (click)="detailGameData(i.game_rank)">More details >></a></li>
+          </ul>
+          <br>
+        </div>
+    <div  *ngIf="(i+1)%2===0" class="w-100"></div>   
+</div>

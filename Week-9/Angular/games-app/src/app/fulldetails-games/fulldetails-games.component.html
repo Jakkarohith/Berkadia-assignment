@@ -1,0 +1,19 @@
+<br><br>
+<div align="center">
+  <p class="head">
+  Top 10 Players
+  </p>
+</div>  
+<br>
+<table id="fulldetails" align="center">
+  <th>Rank</th>
+  <th>player name</th>
+  <tr *ngFor="let player of playerApidata;let sno =index;let even=even;let odd =odd;let first =first;let last=last" >
+    <td>{{player.player_rank}}</td>
+    <td>{{player.player_name}}</td>
+  </tr>
+  </table>
+  <br>
+ <div align="center"> 
+  <button class="btn btn-outline-danger" (click)="goHome()">Back to home</button>
+  </div>
