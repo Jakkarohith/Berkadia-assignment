@@ -1,4 +1,25 @@
 # JokesApp
+This application provides 10 jokes every time page is been refreshed.
+
+## Home page
+
+
+
+![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/week-3/Angular%20assignment/jokes-app/outputs/Home%20page.png)
+
+## Before refreshing the page
+
+
+
+
+![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/week-3/Angular%20assignment/jokes-app/outputs/before%20refresh.png)
+
+## After refreshing the page
+
+
+
+![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/week-3/Angular%20assignment/jokes-app/outputs/After%20refresh.png)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
 
