@@ -1,6 +1,23 @@
 # MyFoodApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
+# Outputs
+![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/Week-6/Angular%20Assignment/my-food-app/Outputs/1.png)
+
+
+![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/Week-6/Angular%20Assignment/my-food-app/Outputs/2.png)
+
+![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/Week-6/Angular%20Assignment/my-food-app/Outputs/3.png)
+
+
+![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/Week-6/Angular%20Assignment/my-food-app/Outputs/4.png)
+
+![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/Week-6/Angular%20Assignment/my-food-app/Outputs/5.png)
+
+![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/Week-6/Angular%20Assignment/my-food-app/Outputs/6.png)
+![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/Week-6/Angular%20Assignment/my-food-app/Outputs/7.png)
+![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/Week-6/Angular%20Assignment/my-food-app/Outputs/8.png)
+![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/Week-6/Angular%20Assignment/my-food-app/Outputs/9.png)
 
 ## Development server
 
@@ -26,20 +43,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-# Outputs
-![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/Week-6/Angular%20Assignment/my-food-app/Outputs/1.png)
-
-
-![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/Week-6/Angular%20Assignment/my-food-app/Outputs/2.png)
-
-![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/Week-6/Angular%20Assignment/my-food-app/Outputs/3.png)
-
-
-![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/Week-6/Angular%20Assignment/my-food-app/Outputs/4.png)
-
-![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/Week-6/Angular%20Assignment/my-food-app/Outputs/5.png)
-
-![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/Week-6/Angular%20Assignment/my-food-app/Outputs/6.png)
-![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/Week-6/Angular%20Assignment/my-food-app/Outputs/7.png)
-![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/Week-6/Angular%20Assignment/my-food-app/Outputs/8.png)
-![](https://github.com/Jakkarohith/Berkadia-assignment/blob/master/Week-6/Angular%20Assignment/my-food-app/Outputs/9.png)
