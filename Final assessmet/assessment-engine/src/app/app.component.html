@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-sticky navbar-airy navbar-light bg-fixed-white bg-hover-white navbar-hover-white bg-white  was-navbar-dark bg-fixed-white fixed-top">
+    <a style="padding-left:450px;" class="navbar-brand"><img style="width: 50px;height: 50px;" src="./assets/logo.jpg"></a>
+    <a class="navbar-brand" class="heading" href="#">Questions era!!</a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>    
+   </button>
+</nav>
+<div style="background-color:aqua">
+    <br>
+    <br><br><br><br>
+    <div style="margin-left:300px"  *ngFor="let question of questionsData| slice:0:10;let i of index">
+        <div class="card" style="width:45rem;height: 30rem">
+          <div class="card-body" >
+              <div class="card-title">
+              <strong><i>Question :</i></strong><br>{{question.question}}<br>
+              <button class="btn btn-primary" (click)="result(i.correct_answer)">{{question.correct_answer}}</button> <br>
+              <button class="btn btn-primary" (click)="result(i.incorrect_answers[0])"  > {{question.incorrect_answers[0]}}</button><br>
+              <button class="btn btn-primary" (click)="result(i.incorrect_answers[1])" >{{question.incorrect_answers[1]}}</button> <br>
+              <button class="btn btn-primary" (click)="result(i.incorrect_answers[2])" >{{question.incorrect_answers[2]}}</button> <br>
+              </div>
+          </div>
+        </div>
+    </div>
+<div align="center"><br>  
+  <button class="btn btn-info btn-lg" (click)="getResult()">Submit</button>
+    <div *ngIf="displayResult" >
+        <p class="result">Your score is</p> 
+        <p class="result">{{total_score}}/10</p><br><br>
+        <table class="leftpad" id="fulldetails" align="left">
+           <th>Correct answers</th>
+              <tr *ngFor="let answer of user_answer;" >
+                 <td>{{answer}}</td>
+              </tr>
+        </table>
+        <table id="fulldetails" class="rightpad" align="right">
+            <th>Correct answers</th>
+               <tr *ngFor="let correct of correct_answers" >
+                 <td>{{correct}}</td>
+               </tr>
+        </table>   
+      </div>
+    </div>
+    <br><br>  
+      </div> 
+<router-outlet></router-outlet>
